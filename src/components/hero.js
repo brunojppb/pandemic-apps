@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
       }}
     />
     <h1 style={{ textAlign: "center" }}>
-      <a href="/" style={{ color: "#222" }}>
+      <a href="https://bpaulino.com/pandemic-apps" style={{ color: "#222" }}>
         Pandemic Apps
       </a>
     </h1>
