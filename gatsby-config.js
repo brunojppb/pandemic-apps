@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/pandemic-apps",
   siteMetadata: {
     title: `Pandemic Apps`,
     description: `A collection of free apps that can help you with Remote Work`,
@@ -7,8 +8,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -24,12 +23,5 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
   ],
 }

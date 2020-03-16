@@ -5,19 +5,16 @@
   "version": "0.1.0",
   "author": "Bruno Paulino <twitter:@bpaulino0>",
   "dependencies": {
-    "gatsby": "^2.1.37",
-    "gatsby-image": "^2.0.34",
+    "gatsby": "^2.19.44",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sharp": "^2.0.29",
     "gatsby-plugin-sitemap": "^2.0.10",
-    "gatsby-source-filesystem": "^2.0.27",
-    "gatsby-transformer-sharp": "^2.1.17",
+    "gatsby-source-filesystem": "^2.1.56",
+    "gatsby-transformer-remark": "^2.6.59",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0",
-    "sharp": "^0.22.0"
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
@@ -29,6 +26,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",

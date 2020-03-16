@@ -1,12 +1,13 @@
 const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const indexPage = path.resolve(`src/pages/main.js`)
+  const indexPage = path.resolve(`src/components/main.js`)
   const result = await graphql(`
     {
       allMarkdownRemark(limit: 1) {
         edges {
           node {
+            html
             frontmatter {
               path
             }
@@ -24,7 +25,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     createPage({
       path: "/",
       component: indexPage,
-      context: {}, // additional data can be passed via context
+      context: {
+        html: node.html,
+      }, // additional data can be passed via context
     })
   })
 }
