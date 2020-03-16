@@ -23,10 +23,15 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Pandemic Apps</h1>
+    <h1 style={{ textAlign: "center" }}>
+      <a href="/" style={{ color: "#222" }}>
+        Pandemic Apps
+      </a>
+    </h1>
     <p style={{ textAlign: "center", maxWidth: 750 }}>
-      A collection of free apps and resources to help you with Remote Work
-      during the <strong>Coronavirus Pandemic Crisis</strong>
+      A collection of free apps and resources to help you with{" "}
+      <strong>Remote Work</strong> during the{" "}
+      <strong>Coronavirus Pandemic Crisis</strong>
     </p>
   </div>
 )
