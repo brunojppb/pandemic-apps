@@ -1,21 +1,17 @@
 <p align="center">
-  <img alt="preview of page" src="https://github.com/gillkyle/images/blob/master/Screen%20Shot%202019-03-21%20at%209.14.46%20PM.png" />
+  <a href="http://bpaulino.com/pandemic-apps">
+    <img alt="Pandemic Apps" 
+    src="https://repository-images.githubusercontent.com/247661661/801d7b00-67a2-11ea-9300-59bf001d8dff" />
+  </a>
 </p>
-<h1 align="center">
-  Gatsby Landing Page Starter
-</h1>
 
-A simple, minimal, easy-to-use landing page starter without all sorts of bells and whistles bolted on that you'll just have to strip out later. Create a super fast, beautiful landing page from a barebones template with a single page that already looks good.
+A collection of free apps and resources to help you with Remote Work during the Coronavirus Pandemic Crisis.
 
-## Prerequisites
+## How to contribute
 
-If you do not have the Gatsby CLI installed yet, do it first.
+Edit the file `/src/markdown/apps.md` and add the apps you believe that can bring value to remote workers, especially during the Coronavirus Pandemic Crisis.
 
-```bash
-npm install --global gatsby-cli
-```
-
-The Gatsby CLI uses Node and npm which you will also need installed. More information can be found on [GatsbyJS.org](https://www.gatsbyjs.org/tutorial/part-one/).
+This is a `markdown` file. If you don't know what markdown is, no problem, [here is a link to quick intro.](https://en.wikipedia.org/wiki/Markdown) And here is a [Markdown Cheatsheet with the basic syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## 🚀 Getting Started
 
