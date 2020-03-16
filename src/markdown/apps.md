@@ -23,6 +23,7 @@ path: "/"
 - [Signal](https://signal.org/)
 - [Telegram](https://telegram.org/)
 - [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software)
+- [Discord (voice and text chat)](https://discordapp.com/)
 
 ## Automation
 

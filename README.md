@@ -5,6 +5,8 @@
   </a>
 </p>
 
+![Gatsby Publish](https://github.com/brunojppb/pandemic-apps/workflows/Gatsby%20Publish/badge.svg)
+
 A collection of free apps and resources to help you with Remote Work during the Coronavirus Pandemic Crisis.
 
 ## How to contribute
