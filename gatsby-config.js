@@ -3,8 +3,20 @@ module.exports = {
   siteMetadata: {
     title: `Pandemic Apps`,
     description: `A collection of free apps that can help you with Remote Work`,
-    author: `@bpaulino0`,
+    twitterAuthor: `@bpaulino0`,
+    author: `Bruno Paulino`,
     siteUrl: `https://bpaulino.com/pandemic-apps`,
+    imageUrl: `https://repository-images.githubusercontent.com/247661661/9ff67400-678d-11ea-95e5-ca0b054aeba7`,
+    domain: `bpaulino.com`,
+    keywords: [
+      "apps",
+      "crisis",
+      "coronavirus",
+      "pandemic",
+      "pandemia",
+      "remote",
+      "work",
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

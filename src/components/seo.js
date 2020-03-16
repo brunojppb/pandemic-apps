@@ -19,6 +19,10 @@ function SEO({ description, lang, meta, keywords, title }) {
             title
             description
             author
+            imageUrl
+            domain
+            siteUrl
+            twitterAuthor
           }
         }
       }
@@ -40,8 +44,12 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: site.siteMetadata.imageUrl,
+        },
+        {
           property: `og:title`,
-          content: title,
+          content: site.siteMetadata.title,
         },
         {
           property: `og:description`,
@@ -53,7 +61,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
+        },
+        {
+          name: `twitter:domain`,
+          content: site.siteMetadata.domain,
         },
         {
           name: `twitter:creator`,
@@ -64,8 +76,28 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: title,
         },
         {
+          name: `twitter:image`,
+          content: site.siteMetadata.imageUrl,
+        },
+        {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:label1`,
+          content: `Created by`,
+        },
+        {
+          name: `twitter:data1`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:label2`,
+          content: `Twitter`,
+        },
+        {
+          name: `twitter:data2`,
+          content: site.siteMetadata.twitterAuthor,
         },
       ]
         .concat(

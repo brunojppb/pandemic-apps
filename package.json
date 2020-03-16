@@ -1,7 +1,7 @@
 {
   "name": "pandemic-apps",
   "private": true,
-  "description": "A collection of free apps that can help you with Remote Work",
+  "description": "A collection of free apps for Remote Work during the Coronavirus Pandemic Crisis",
   "version": "0.1.0",
   "author": "Bruno Paulino <twitter:@bpaulino0>",
   "dependencies": {
