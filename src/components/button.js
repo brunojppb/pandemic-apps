@@ -1,7 +1,6 @@
 import React from "react"
 
 import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
-import "../styles/button.css"
 
 const Button = ({ children, ...props }) => (
   <a
@@ -15,6 +14,7 @@ const Button = ({ children, ...props }) => (
       cursor: "pointer",
       textDecoration: "none",
     }}
+    className="btn"
     {...props}
   >
     {children}

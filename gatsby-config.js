@@ -6,7 +6,7 @@ module.exports = {
     twitterAuthor: `@bpaulino0`,
     author: `Bruno Paulino`,
     siteUrl: `https://bpaulino.com/pandemic-apps`,
-    imageUrl: `https://repository-images.githubusercontent.com/247661661/9ff67400-678d-11ea-95e5-ca0b054aeba7`,
+    imageUrl: `https://repository-images.githubusercontent.com/247661661/801d7b00-67a2-11ea-9300-59bf001d8dff`,
     domain: `bpaulino.com`,
     keywords: [
       "apps",

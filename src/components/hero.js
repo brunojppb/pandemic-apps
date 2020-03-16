@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import headerImage from "../images/header.png"
+import virusImage from "../images/virus.svg"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -28,10 +29,13 @@ const Header = ({ siteTitle }) => (
         Pandemic Apps
       </a>
     </h1>
+    <div>
+      <img src={virusImage} alt="virus" className="virus-img" />
+    </div>
     <p style={{ textAlign: "center", maxWidth: 750 }}>
       A collection of free apps and resources to help you with{" "}
-      <strong>Remote Work</strong> during the{" "}
-      <strong>Coronavirus Pandemic Crisis</strong>
+      <strong>Remote Work</strong>
+      <br /> during the <strong>Coronavirus Pandemic Crisis</strong>
     </p>
   </div>
 )

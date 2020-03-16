@@ -7,7 +7,7 @@ const Footer = ({ siteTitle }) => (
   <footer
     style={{
       padding: "1rem",
-      backgroundColor: COLORS.lightGray,
+      backgroundColor: "#222",
     }}
   >
     <div
@@ -20,9 +20,9 @@ const Footer = ({ siteTitle }) => (
         fontSize: ".85rem",
       }}
     >
-      <div style={{ color: COLORS.mediumGray, fontWeight: 700 }}>
+      <div style={{ color: "white", fontWeight: 700 }}>
         <a
-          style={{ textDecoration: "none", color: COLORS.gray }}
+          style={{ textDecoration: "none", color: "white" }}
           href="https://twitter.com/bpaulino0"
         >
           Created By Bruno Paulino
