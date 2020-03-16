@@ -10,7 +10,7 @@ const CallToAction = () => (
       description="If you know an app that can help with Remote Work and is not on this list, open a pull-request"
     />
     <Button href="https://github.com/brunojppb/pandemic-apps">
-      Go to Github
+      Contribute on Github
     </Button>
   </div>
 )
