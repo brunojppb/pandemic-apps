@@ -50,4 +50,4 @@ path: "/"
 ## Time Tracking
 
 - [Toggl](https://toggl.com/)
-- [Harnest](https://www.getharvest.com/)
+- [Harvest](https://www.getharvest.com/)
