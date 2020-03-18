@@ -25,6 +25,11 @@ path: "/"
 - [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software)
 - [Discord (voice and text chat)](https://discordapp.com/)
 
+## Collaborative whiteboarding
+
+- [miro](https://miro.com/)
+- [Google Jamboard](https://jamboard.google.com/)
+
 ## Automation
 
 - [Zapier](https://zapier.com/pricing)
