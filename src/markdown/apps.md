@@ -4,6 +4,7 @@ path: "/"
 
 ## COVID-19 Dashboards
 
+- [COVID-19 dashboard by Microsoft](https://bing.com/covid)
 - [Hourly updated dashboards about the situation in the USA](http://covid19dashboards.com/)
 - [Global Cases by the Johns Hopkins University (JHU)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
